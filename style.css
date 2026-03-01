@@ -1,0 +1,20 @@
+body {background:#0b0b0b;color:white;font-family:Poppins;}
+header{display:flex;justify-content:space-between;padding:20px;background:black;}
+h1{color:gold;}
+nav a{color:white;margin:10px;text-decoration:none;}
+.hero{height:90vh;position:relative;}
+.hero img{position:absolute;width:100%;height:100%;object-fit:cover;opacity:0;transition:1s;}
+.hero img.active{opacity:1;}
+.hero-content{background:rgba(0,0,0,.6);height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+.btn{background:gold;color:black;padding:15px 30px;border-radius:30px;}
+.section{text-align:center;padding:60px 20px;}
+.cards,.gallery{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;}
+.card{background:#1a1a1a;padding:20px;border-radius:15px;}
+.gallery img{width:200px;border-radius:10px;}
+input,textarea,select{padding:10px;margin:5px;border-radius:10px;border:none;width:80%;}
+button{background:gold;padding:10px 25px;border:none;border-radius:20px;}
+footer{background:black;text-align:center;padding:15px;}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;padding:15px;border-radius:50%;color:white;font-size:25px;}
+.reveal{opacity:0;transform:translateY(50px);transition:1s;}
+.reveal.active{opacity:1;transform:translateY(0);}
+iframe{width:100%;height:300px;border:none;margin-top:20px;}
