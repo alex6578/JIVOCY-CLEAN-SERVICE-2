@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>JIVOCY CLEAN SERVICE | Nettoyage Premium à Djibouti</title>
+<meta name="description" content="Nettoyage premium de canapés, tapis et fauteuils à Djibouti. Service haut de gamme.">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <h1>JIVOCY CLEAN SERVICE</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#quote">Devis</a>
+    <a href="#reviews">Avis</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="slides">
+    <img src="images/hero1.jpg" class="active">
+    <img src="images/hero2.jpg">
+  </div>
+  <div class="hero-content">
+    <h2 id="title">Le Nettoyage de Luxe à Djibouti</h2>
+    <p id="subtitle">Canapés • Tapis • Fauteuils</p>
+    <a href="#quote" class="btn">Demander un devis</a>
+  </div>
+</section>
+
+<section id="services" class="section reveal">
+  <h2>Nos Services Premium</h2>
+  <div class="cards">
+    <div class="card">🛋️ Nettoyage Canapés</div>
+    <div class="card">🧼 Nettoyage Tapis</div>
+    <div class="card">💺 Nettoyage Fauteuils</div>
+  </div>
+</section>
+
+<section id="gallery" class="section reveal">
+  <h2>Avant / Après</h2>
+  <div class="gallery">
+    <img src="images/before1.jpg">
+    <img src="images/after1.jpg">
+    <img src="images/before2.jpg">
+    <img src="images/after2.jpg">
+  </div>
+</section>
+
+<section id="quote" class="section reveal">
+  <h2>Devis automatique</h2>
+  <form id="quoteForm">
+    <select id="service">
+      <option>Canapé</option>
+      <option>Tapis</option>
+      <option>Fauteuil</option>
+    </select>
+    <input type="number" id="quantity" placeholder="Quantité" required>
+    <button type="submit">Calculer</button>
+    <p id="price"></p>
+  </form>
+</section>
+
+<section id="reviews" class="section reveal">
+  <h2>Avis clients</h2>
+  <div id="reviewsList"></div>
+  <form id="reviewForm">
+    <input type="text" id="name" placeholder="Votre nom" required>
+    <textarea id="comment" placeholder="Votre avis" required></textarea>
+    <button>Envoyer</button>
+  </form>
+</section>
+
+<section id="contact" class="section reveal">
+  <h2>Contact</h2>
+  <p>📍 Djibouti - Djibouti</p>
+  <p>📞 +253 XX XX XX XX</p>
+  <p>📧 contact@jivocyclean.com</p>
+
+  <iframe src="https://www.google.com/maps?q=Djibouti&output=embed"></iframe>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Nom">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 JIVOCY CLEAN SERVICE
+</footer>
+
+<a href="https://wa.me/253XXXXXXXX" class="whatsapp">💬</a>
+
+<script src="script.js"></script>
+</body>
+  </html>
